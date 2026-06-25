@@ -419,9 +419,9 @@
   "videoSmallCase": "видео",
   "photoSmallCase": "фото",
   "singleFileDeleteHighlight": "Оно будет удалено из всех альбомов.",
-  "singleFileInBothLocalAndRemote": "Это {fileType} есть и в Ente, и на вашем устройстве.",
-  "singleFileInRemoteOnly": "Это {fileType} будет удалено из Ente.",
-  "singleFileDeleteFromDevice": "Это {fileType} будет удалено с вашего устройства.",
+  "singleFileInBothLocalAndRemote": "Это есть и в Ente, и на вашем устройстве.",
+  "singleFileInRemoteOnly": "Это будет удалено из Ente.",
+  "singleFileDeleteFromDevice": "Это будет удалено с вашего устройства.",
   "deleteFromEnte": "Удалить из Ente",
   "yesDelete": "Да, удалить",
   "movedToTrash": "Перемещено в корзину",
@@ -1105,10 +1105,7 @@
   "photosAddedByYouWillBeRemovedFromTheAlbum": "Добавленные вами фото будут удалены из альбома",
   "youveNoFilesInThisAlbumThatCanBeDeleted": "В этом альбоме нет файлов, которые можно удалить",
   "youDontHaveAnyArchivedItems": "У вас нет архивных элементов.",
-  "ignoredFolderUploadReason": "Некоторые файлы в этом альбоме игнорируются, так как ранее они были удалены из Ente.",
   "resetIgnoredFiles": "Сбросить игнорируемые файлы",
-  "deviceFilesAutoUploading": "Файлы, добавленные в этот альбом на устройстве, будут автоматически загружены в Ente.",
-  "turnOnBackupForAutoUpload": "Включите резервное копирование, чтобы автоматически загружать файлы из этой папки на устройстве в Ente.",
   "noHiddenPhotosOrVideos": "Нет скрытых фото или видео",
   "toHideAPhotoOrVideo": "Скрыть фото или видео",
   "openTheItem": "• Откройте элемент",
@@ -1309,10 +1306,6 @@
   "@searchResultPerson": {
     "description": "Search result subtitle label for person results"
   },
-  "searchResultShared": "Общий",
-  "@searchResultShared": {
-    "description": "Search result subtitle label for shared-with-you results"
-  },
   "searchResultUploadedBy": "Загружено пользователем",
   "@searchResultUploadedBy": {
     "description": "Search result subtitle label for uploader results"
@@ -1483,7 +1476,6 @@
   "nothingSharedWithYouYet": "С вами пока ничем не поделились",
   "noAlbumsSharedByYouYet": "Вы пока не делились альбомами",
   "sharedWithYou": "Поделились с вами",
-  "sharedByYou": "Вы поделились",
   "inviteYourFriendsToEnte": "Пригласите друзей в Ente",
   "failedToDownloadVideo": "Не удалось скачать видео",
   "hiding": "Скрытие...",

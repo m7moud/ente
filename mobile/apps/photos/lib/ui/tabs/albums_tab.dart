@@ -1,5 +1,4 @@
 import "dart:async";
-import "dart:ui" show BlendMode, ImageFilter;
 
 import "package:ente_components/ente_components.dart";
 import "package:ente_pure_utils/ente_pure_utils.dart";
@@ -31,6 +30,7 @@ import "package:photos/ui/common/loading_widget.dart";
 import "package:photos/ui/components/empty_state_component.dart";
 import "package:photos/ui/tabs/albums/albums_manage_sheet.dart";
 import "package:photos/ui/tabs/albums/empty_states/on_ente_empty_state.dart";
+import "package:photos/ui/tabs/albums/empty_states/received_empty_state.dart";
 import "package:photos/ui/tabs/albums/empty_states/shared_empty_state.dart";
 import "package:photos/ui/viewer/actions/album_selection_overlay_bar.dart";
 import "package:photos/ui/viewer/actions/delete_empty_albums.dart";
@@ -566,7 +566,7 @@ class _AlbumsTabState extends State<AlbumsTab>
       case _AlbumsFilter.received:
         collections = _receivedCollections.value;
         showCreateAlbum = false;
-        emptyState = const SharedEmptyState();
+        emptyState = const ReceivedEmptyState();
       case _AlbumsFilter.onDevice:
         return DeviceFolderVerticalGridSliver(
           searchQuery: _searchQuery.trim(),
@@ -907,7 +907,7 @@ class _AlbumsTabState extends State<AlbumsTab>
                                           physics:
                                               const BouncingScrollPhysics(),
                                           padding: const EdgeInsets.only(
-                                            right: 44,
+                                            right: 72,
                                           ),
                                           child: Row(
                                             children: [
@@ -1113,29 +1113,21 @@ class _AlbumsMoreButtonOverlay extends StatelessWidget {
             right: 0,
             bottom: 0,
             child: IgnorePointer(
-              child: ShaderMask(
-                blendMode: BlendMode.dstIn,
-                shaderCallback: (bounds) => LinearGradient(
-                  begin: Alignment.centerRight,
-                  end: Alignment.centerLeft,
-                  colors: [
-                    maskColor,
-                    maskColor,
-                    maskColor.withValues(alpha: 0),
-                  ],
-                  stops: const [0, 0.48, 1],
-                ).createShader(bounds),
-                child: SizedBox(
-                  width: 72,
-                  child: ClipRect(
-                    child: BackdropFilter(
-                      filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
-                      child: ColoredBox(
-                        color: componentColors.backgroundBase.withValues(
-                          alpha: 0.66,
-                        ),
-                        child: const SizedBox.expand(),
-                      ),
+              child: SizedBox(
+                width: 72,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.centerRight,
+                      end: Alignment.centerLeft,
+                      colors: [
+                        maskColor,
+                        maskColor.withValues(alpha: 0.92),
+                        maskColor.withValues(alpha: 0.55),
+                        maskColor.withValues(alpha: 0.12),
+                        maskColor.withValues(alpha: 0),
+                      ],
+                      stops: const [0, 0.3, 0.55, 0.8, 1],
                     ),
                   ),
                 ),

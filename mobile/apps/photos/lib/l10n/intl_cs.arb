@@ -419,9 +419,9 @@
   "videoSmallCase": "video",
   "photoSmallCase": "fotografie",
   "singleFileDeleteHighlight": "Bude odstraněno ze všech alb.",
-  "singleFileInBothLocalAndRemote": "{fileType} se nachází jak v Ente, tak ve Vašem zařízení.",
-  "singleFileInRemoteOnly": "Tento {fileType} bude odstraněn z Ente.",
-  "singleFileDeleteFromDevice": "Tento {fileType} bude odstraněn z Vašeho zařízení.",
+  "singleFileInBothLocalAndRemote": "se nachází jak v Ente, tak ve Vašem zařízení.",
+  "singleFileInRemoteOnly": "Tento bude odstraněn z Ente.",
+  "singleFileDeleteFromDevice": "Tento bude odstraněn z Vašeho zařízení.",
   "deleteFromEnte": "Odstranit z Ente",
   "yesDelete": "Ano, smazat",
   "movedToTrash": "Přesunuto do koše",
@@ -1162,10 +1162,7 @@
   "photosAddedByYouWillBeRemovedFromTheAlbum": "Fotografie, které jste přidali, budou z alba odstraněny",
   "youveNoFilesInThisAlbumThatCanBeDeleted": "V tomto albu nemáte žádné soubory, které by mohly být odstraněny",
   "youDontHaveAnyArchivedItems": "Nemáte žádné archivované položky.",
-  "ignoredFolderUploadReason": "Některé soubory v tomto albu jsou při nahrávání ignorovány, protože byly dříve odstraněny z Ente.",
   "resetIgnoredFiles": "Resetovat ignorované soubory",
-  "deviceFilesAutoUploading": "Soubory přidané do tohoto alba v zařízení se automaticky nahrají do Ente.",
-  "turnOnBackupForAutoUpload": "Zapněte zálohování, aby se soubory přidané do této složky zařízení automaticky nahrávaly do Ente.",
   "noHiddenPhotosOrVideos": "Žádné skryté fotografie ani videa",
   "toHideAPhotoOrVideo": "Pro skrytí fotografie nebo videa",
   "openTheItem": "• Otevřete položku",
@@ -1417,10 +1414,6 @@
   "@searchResultPerson": {
     "description": "Search result subtitle label for person results"
   },
-  "searchResultShared": "Sdíleno",
-  "@searchResultShared": {
-    "description": "Search result subtitle label for shared-with-you results"
-  },
   "searchResultUploadedBy": "Nahráno uživatelem",
   "@searchResultUploadedBy": {
     "description": "Search result subtitle label for uploader results"
@@ -1596,7 +1589,6 @@
   "nothingSharedWithYouYet": "Zatím s Vámi nebylo nic sdíleno",
   "noAlbumsSharedByYouYet": "Zatím nemáte žádná sdílená alba",
   "sharedWithYou": "Sdíleno se mnou",
-  "sharedByYou": "Sdíleno mnou",
   "inviteYourFriendsToEnte": "Pozvěte své přátelé do Ente",
   "failedToDownloadVideo": "Stahování videa se nezdařilo",
   "hiding": "Skrývání...",

@@ -97,10 +97,7 @@ class _PeopleSectionState extends State<PeopleSection> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SectionHeader(
-                  widget.sectionType,
-                  hasMore: _examples.length > widget.resultLimit,
-                ),
+                SectionHeader(widget.sectionType, hasMore: true),
                 const SizedBox(height: 4),
                 SearchExampleRow(visibleExamples, widget.sectionType),
                 const SizedBox(height: 20),
@@ -126,7 +123,7 @@ class _PeopleSectionState extends State<PeopleSection> {
                       children: [
                         Text(
                           widget.sectionType.sectionTitle(context),
-                          style: TextStyles.h2.copyWith(
+                          style: TextStyles.display3.copyWith(
                             color: textTheme.largeBold.color,
                           ),
                         ),
@@ -146,8 +143,6 @@ class _PeopleSectionState extends State<PeopleSection> {
 }
 
 class SearchExampleRow extends StatelessWidget {
-  static const _minTileHeight = 158.0;
-
   final SectionType sectionType;
   final List<GenericSearchResult> examples;
 
@@ -159,13 +154,7 @@ class SearchExampleRow extends StatelessWidget {
       spacing: 10,
       children: [
         for (final example in examples)
-          ConstrainedBox(
-            constraints: const BoxConstraints(minHeight: _minTileHeight),
-            child: PersonSearchExample(
-              searchResult: example,
-              selectedPeople: null,
-            ),
-          ),
+          PersonSearchExample(searchResult: example, selectedPeople: null),
       ],
     );
   }
@@ -338,7 +327,6 @@ class PersonSearchExample extends StatelessWidget {
                       padding: EdgeInsets.zero,
                       child: _PersonLabel(
                         name: searchResult.name(),
-                        count: searchResult.fileCount(),
                         width: size,
                       ),
                     ),
@@ -351,14 +339,9 @@ class PersonSearchExample extends StatelessWidget {
 }
 
 class _PersonLabel extends StatelessWidget {
-  const _PersonLabel({
-    required this.name,
-    required this.count,
-    required this.width,
-  });
+  const _PersonLabel({required this.name, required this.width});
 
   final String name;
-  final int count;
   final double width;
 
   @override
@@ -376,13 +359,6 @@ class _PersonLabel extends StatelessWidget {
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyles.body.copyWith(color: textTheme.body.color),
-            ),
-            const SizedBox(height: 2),
-            Text(
-              AppLocalizations.of(context).itemCount(count: count),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyles.mini.copyWith(color: textTheme.miniMuted.color),
             ),
           ],
         ),

@@ -442,9 +442,9 @@
   "videoSmallCase": "video",
   "photoSmallCase": "ảnh",
   "singleFileDeleteHighlight": "Nó sẽ bị xóa khỏi tất cả album.",
-  "singleFileInBothLocalAndRemote": "Tệp {fileType} này có trong cả Ente và thiết bị của bạn.",
-  "singleFileInRemoteOnly": "Tệp {fileType} này sẽ bị xóa khỏi Ente.",
-  "singleFileDeleteFromDevice": "Tệp {fileType} này sẽ bị xóa khỏi thiết bị của bạn.",
+  "singleFileInBothLocalAndRemote": "Tệp này có trong cả Ente và thiết bị của bạn.",
+  "singleFileInRemoteOnly": "Tệp này sẽ bị xóa khỏi Ente.",
+  "singleFileDeleteFromDevice": "Tệp này sẽ bị xóa khỏi thiết bị của bạn.",
   "deleteFromEnte": "Xóa khỏi Ente",
   "yesDelete": "Có, xóa",
   "movedToTrash": "Đã cho vào thùng rác",
@@ -1265,10 +1265,8 @@
   "photosAddedByYouWillBeRemovedFromTheAlbum": "Ảnh bạn đã thêm sẽ bị xóa khỏi album",
   "youveNoFilesInThisAlbumThatCanBeDeleted": "Bạn không có tệp nào có thể xóa trong album này",
   "youDontHaveAnyArchivedItems": "Bạn không có mục nào đã lưu trữ.",
-  "ignoredFolderUploadReason": "Một số tệp trong album này bị bỏ qua khi tải lên vì chúng đã bị xóa trước đó từ Ente.",
+  "deletedItemsStayHereForThirtyDays": "Các mục đã xóa sẽ được lưu giữ tại đây trong 30 ngày",
   "resetIgnoredFiles": "Đặt lại các tệp bị bỏ qua",
-  "deviceFilesAutoUploading": "Các tệp được thêm vào album thiết bị này sẽ tự động được tải lên Ente.",
-  "turnOnBackupForAutoUpload": "Bật sao lưu để tự động tải lên các tệp được thêm vào thư mục thiết bị này lên Ente.",
   "noHiddenPhotosOrVideos": "Không có ảnh hoặc video ẩn",
   "toHideAPhotoOrVideo": "Để ẩn một ảnh hoặc video",
   "openTheItem": "• Mở mục",
@@ -1293,6 +1291,7 @@
   "searchByExamples": "• Tên album (vd: \"Camera\")\n• Loại tệp (vd: \"Video\", \".gif\")\n• Năm và tháng (vd: \"2022\", \"Tháng Một\")\n• Ngày lễ (vd: \"Giáng Sinh\")\n• Mô tả ảnh (vd: “#vui”)",
   "youCanTrySearchingForADifferentQuery": "Bạn có thể thử tìm kiếm một truy vấn khác.",
   "noResultsFound": "Không tìm thấy kết quả",
+  "noMatchesFound": "Không tìm thấy kết quả!",
   "addedBy": "Được thêm bởi {emailOrName}",
   "loadingExifData": "Đang lấy thông số Exif...",
   "viewAllExifData": "Xem thông số Exif",
@@ -1538,10 +1537,6 @@
   "@searchResultPerson": {
     "description": "Search result subtitle label for person results"
   },
-  "searchResultShared": "Đã chia sẻ",
-  "@searchResultShared": {
-    "description": "Search result subtitle label for shared-with-you results"
-  },
   "searchResultUploadedBy": "Tải lên bởi",
   "@searchResultUploadedBy": {
     "description": "Search result subtitle label for uploader results"
@@ -1698,6 +1693,7 @@
   "enableMaps": "Kích hoạt Bản đồ",
   "links": "Liên kết",
   "noLinksYet": "Chưa có liên kết",
+  "activeLinksWillShowUpHere": "Các liên kết hoạt động sẽ hiện ở đây",
   "quickLinks": "Liên kết nhanh",
   "selectItemsToAdd": "Chọn mục để thêm",
   "addSelected": "Thêm mục đã chọn",
@@ -1720,7 +1716,6 @@
   "nothingSharedWithYouYet": "Chưa có ai chia sẻ với bạn",
   "noAlbumsSharedByYouYet": "Bạn chưa chia sẻ album nào",
   "sharedWithYou": "Đã chia sẻ với bạn",
-  "sharedByYou": "Do bạn chia sẻ",
   "inviteYourFriendsToEnte": "Mời bạn bè dùng Ente",
   "failedToDownloadVideo": "Không thể tải video",
   "hiding": "Đang ẩn...",
@@ -2555,6 +2550,7 @@
   "addSomePhotosDesc1": "Thêm ảnh hoặc chọn ",
   "addSomePhotosDesc2": "khuôn mặt giống nhau",
   "addSomePhotosDesc3": "\nđể bắt đầu",
+  "startWithAddingPhotosOrFamiliarFaces": "Bắt đầu bằng cách thêm\nảnh hoặc gương mặt gia đình",
   "ignorePerson": "Bỏ qua người",
   "mixedGrouping": "Nhóm hỗn hợp?",
   "analysis": "Phân tích",

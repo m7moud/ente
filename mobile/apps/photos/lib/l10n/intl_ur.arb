@@ -438,9 +438,9 @@
   "videoSmallCase": "ویڈیو",
   "photoSmallCase": "تصویر",
   "singleFileDeleteHighlight": "یہ تمام البمز سے ڈیلیٹ کر دیا جائے گا.",
-  "singleFileInBothLocalAndRemote": "یہ {fileType} Ente اور آپ کی ڈیوائس دونوں میں ہے.",
-  "singleFileInRemoteOnly": "یہ {fileType} Ente سے ڈیلیٹ کر دیا جائے گا.",
-  "singleFileDeleteFromDevice": "یہ {fileType} آپ کی ڈیوائس سے ڈیلیٹ کر دیا جائے گا.",
+  "singleFileInBothLocalAndRemote": "یہ Ente اور آپ کی ڈیوائس دونوں میں ہے.",
+  "singleFileInRemoteOnly": "یہ Ente سے ڈیلیٹ کر دیا جائے گا.",
+  "singleFileDeleteFromDevice": "یہ آپ کی ڈیوائس سے ڈیلیٹ کر دیا جائے گا.",
   "deleteFromEnte": "Ente سے ڈیلیٹ کریں",
   "yesDelete": "ہاں، ڈیلیٹ کریں",
   "movedToTrash": "ردی میں منتقل کر دیا گیا",
@@ -1245,10 +1245,7 @@
   "photosAddedByYouWillBeRemovedFromTheAlbum": "آپ کی شامل کردہ تصاویر البم سے ہٹا دی جائیں گی",
   "youveNoFilesInThisAlbumThatCanBeDeleted": "آپ کے پاس اس البم میں کوئی ایسی فائل نہیں ہے جسے ڈیلیٹ کیا جا سکے",
   "youDontHaveAnyArchivedItems": "آپ کے پاس کوئی آرکائیو شدہ آئٹم نہیں ہے.",
-  "ignoredFolderUploadReason": "اس البم میں کچھ فائلیں اپ لوڈ سے نظر انداز کر دی گئی ہیں کیونکہ وہ پہلے Ente سے ڈیلیٹ کر دی گئی تھیں.",
   "resetIgnoredFiles": "نظر انداز فائلیں ری سیٹ کریں",
-  "deviceFilesAutoUploading": "اس ڈیوائس البم میں شامل کردہ فائلیں خود بخود Ente پر اپ لوڈ ہو جائیں گی.",
-  "turnOnBackupForAutoUpload": "اس ڈیوائس فولڈر میں شامل کردہ فائلوں کو خود بخود Ente پر اپ لوڈ کرنے کے لیے بیک اپ آن کریں.",
   "noHiddenPhotosOrVideos": "کوئی پوشیدہ تصاویر یا ویڈیوز نہیں",
   "toHideAPhotoOrVideo": "تصویر یا ویڈیو چھپانے کے لیے",
   "openTheItem": "• آئٹم کھولیں",
@@ -1517,10 +1514,6 @@
   "@searchResultPerson": {
     "description": "Search result subtitle label for person results"
   },
-  "searchResultShared": "مشترکہ",
-  "@searchResultShared": {
-    "description": "Search result subtitle label for shared-with-you results"
-  },
   "searchResultUploadedBy": "اپ لوڈ کنندہ",
   "@searchResultUploadedBy": {
     "description": "Search result subtitle label for uploader results"
@@ -1698,7 +1691,6 @@
   "nothingSharedWithYouYet": "ابھی تک آپ کے ساتھ کچھ شیئر نہیں کیا گیا",
   "noAlbumsSharedByYouYet": "ابھی تک آپ کے ذریعہ کوئی البم شیئر نہیں کیا گیا",
   "sharedWithYou": "آپ کے ساتھ شیئر کردہ",
-  "sharedByYou": "آپ کی طرف سے شیئر کردہ",
   "inviteYourFriendsToEnte": "اپنے دوستوں کو Ente پر مدعو کریں",
   "failedToDownloadVideo": "ویڈیو ڈاؤن لوڈ کرنے میں ناکام",
   "hiding": "چھپایا جا رہا ہے...",

@@ -414,9 +414,9 @@
   "videoSmallCase": "vídeo",
   "photoSmallCase": "foto",
   "singleFileDeleteHighlight": "Se borrará de todos los álbumes.",
-  "singleFileInBothLocalAndRemote": "Este {fileType} está tanto en Ente como en tu dispositivo.",
-  "singleFileInRemoteOnly": "Este {fileType} será eliminado de Ente.",
-  "singleFileDeleteFromDevice": "Este {fileType} se eliminará de tu dispositivo.",
+  "singleFileInBothLocalAndRemote": "Este está tanto en Ente como en tu dispositivo.",
+  "singleFileInRemoteOnly": "Este será eliminado de Ente.",
+  "singleFileDeleteFromDevice": "Este se eliminará de tu dispositivo.",
   "deleteFromEnte": "Eliminar de Ente",
   "yesDelete": "Sí, eliminar",
   "movedToTrash": "Movido a la papelera",
@@ -1052,10 +1052,7 @@
   "photosAddedByYouWillBeRemovedFromTheAlbum": "Las fotos añadidas por ti serán removidas del álbum",
   "youveNoFilesInThisAlbumThatCanBeDeleted": "No tienes archivos en este álbum que puedan ser borrados",
   "youDontHaveAnyArchivedItems": "No tienes ningún elemento archivado.",
-  "ignoredFolderUploadReason": "Algunos archivos de este álbum son ignorados de la carga porque previamente habían sido borrados de Ente.",
   "resetIgnoredFiles": "Restablecer archivos ignorados",
-  "deviceFilesAutoUploading": "Los archivos añadidos a este álbum de dispositivo se subirán automáticamente a Ente.",
-  "turnOnBackupForAutoUpload": "Activar la copia de seguridad para subir automáticamente archivos añadidos a la carpeta de este dispositivo a Ente.",
   "noHiddenPhotosOrVideos": "No hay fotos ni vídeos ocultos",
   "toHideAPhotoOrVideo": "Para ocultar una foto o vídeo",
   "openTheItem": "• Abrir el elemento",
@@ -1297,10 +1294,6 @@
   "@searchResultPerson": {
     "description": "Search result subtitle label for person results"
   },
-  "searchResultShared": "Compartido",
-  "@searchResultShared": {
-    "description": "Search result subtitle label for shared-with-you results"
-  },
   "searchResultUploadedBy": "Subido por",
   "@searchResultUploadedBy": {
     "description": "Search result subtitle label for uploader results"
@@ -1476,7 +1469,6 @@
   "nothingSharedWithYouYet": "Aún no hay nada compartido contigo",
   "noAlbumsSharedByYouYet": "Aún no has compartido ningún álbum",
   "sharedWithYou": "Compartido contigo",
-  "sharedByYou": "Compartido por ti",
   "inviteYourFriendsToEnte": "Invita a tus amigos a Ente",
   "failedToDownloadVideo": "Error al descargar el vídeo",
   "hiding": "Ocultando...",
